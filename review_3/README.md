@@ -28,5 +28,5 @@ input / output
 
 "dg cat", ["dog", "cat"] => "~dg~ cat"
 
-"dg", [] => "dg"
+"dg", [] => "~dg~"
 
