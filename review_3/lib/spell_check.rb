@@ -1,3 +1,7 @@
 def spell_check(sentence, dictionary)
-    sentence
+    if !sentence.include?(dictionary.join)
+      "~" + sentence + "~"
+    else
+      sentence
+    end
 end
